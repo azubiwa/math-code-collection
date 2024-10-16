@@ -15,7 +15,7 @@ std::vector<float> sum(std::vector<float> quat_a, std::vector<float> quat_b)
 }
 
 // 四元数の掛け算
-std::vector<float> time(std::vector<floar> quat_a, std::vector<float> quat_b) {
-    std::vector<float return_quat(4);
-    
+std::vector<float> time(std::vector<float> quat_a, std::vector<float> quat_b) {
+    std::vector<float> return_quat(4);
+
 }

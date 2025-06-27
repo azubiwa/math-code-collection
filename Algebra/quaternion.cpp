@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 // 配列の形で四元数を持つ
 std::vector<float> quat(4);
@@ -18,4 +19,10 @@ std::vector<float> sum(std::vector<float> quat_a, std::vector<float> quat_b)
 std::vector<float> time(std::vector<float> quat_a, std::vector<float> quat_b) {
     std::vector<float> return_quat(4);
 
+    return return_quat;
+}
+
+int main(){
+quat={1,2,3,4};
+for(int i=0;i<4;i++) std::cout << sum(quat,quat)[i] << std::endl;
 }

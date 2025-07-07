@@ -5,7 +5,7 @@
 std::vector<float> quat(4);
 
 // 四元数の足し算
-std::vector<float> sum(std::vector<float> quat_a, std::vector<float> quat_b)
+std::vector<float> sum(const std::vector<float>& quat_a, const std::vector<float>& quat_b)
 {
     std::vector<float> return_quat(4);
     for (int i = 0; i < 4; i++)
